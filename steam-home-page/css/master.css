@@ -1,0 +1,56 @@
+body {
+    background-image: url(../img/wallpaper.jpg);
+    background-size: cover;
+}
+
+a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  opacity: 0.3;
+}
+
+a:hover {
+  opacity: 1;
+}
+.link-container {
+  width: 450px;
+  font-size: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.thumbnail {
+  background-color: red;
+  width: 200px;
+  margin-left: 20px;
+  height: 130px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.text {
+  font-size: 15px;
+  width: 200px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.pic-0 {
+  background-image: url(../img/pic-0.jpg);
+}
+.pic-1 {
+  background-image: url(../img/pic-1.png);
+}
+.pic-2 {
+  background-image: url(../img/pic-2.png);
+}
+.pic-3 {
+  background-image: url(../img/pic-3.jpg);
+}
