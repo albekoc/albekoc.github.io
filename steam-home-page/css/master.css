@@ -5,8 +5,8 @@ html {
 body {
   background-image: url(../img/wallpaper.jpg);
   background-repeat: no-repeat;
-  width: 1090px;
-  height: 570px;
+  width: 1070px;
+  height: 550px;
   background-color: blue;
   margin: 0;
   padding-top: 50px;
@@ -86,7 +86,24 @@ a:hover {
 }
 
 .g-submit {
-  visibility: hidden;
+  position: absolute;
+  top: 125px;
+  left: 800px;
+  border-radius: 10px;
+  height: 35px;
+  width: 210px;
+  font-size: 25px;
+  opacity: 0.3;
+  color: black;
+  background-color: white;
+  outline: none;
+  text-align: left;
+  border-color: transparent;
+}
+
+.g-submit:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 input[type="text"] {
@@ -95,7 +112,7 @@ input[type="text"] {
   opacity: 0.3;
   position: absolute;
   top: 70px;
-  left: 820px;
+  left: 800px;
   height: 30px;
   width: 200px;
   border-radius: 10px;
