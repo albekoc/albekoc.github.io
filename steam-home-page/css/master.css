@@ -72,10 +72,12 @@ a:hover {
   width: 492px;
   height: 110px;
   margin-left: 35px;
+  opacity: 0.3;
 }
 .time-de {
   width: 291;
   height: 25;
   margin-left: 140px;
   margin-top: 30px;
+  opacity: 0.3;
 }
