@@ -1,7 +1,6 @@
 html {
   background-image: url(../img/wallpaper.jpg);
   background-repeat: no-repeat;
-  background-color: red;
   padding: 0;
 }
 body {
@@ -16,10 +15,15 @@ a {
   color: white;
   text-decoration: none;
   opacity: 0.3;
+  outline: none;
 }
 
 a:hover {
   opacity: 1;
+}
+
+a:active {
+  outline: none;
 }
 
 .link-container {
