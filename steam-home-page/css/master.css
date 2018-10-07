@@ -54,3 +54,10 @@ a:hover {
 .pic-3 {
   background-image: url(../img/pic-3.jpg);
 }
+
+.time {
+  width: 492px;
+  height: 110px;
+  background-color: red;
+  margin-left: 50px;
+}
