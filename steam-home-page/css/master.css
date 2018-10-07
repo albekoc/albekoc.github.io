@@ -1,6 +1,12 @@
+html {
+  background-color: red;
+}
 body {
-    background-image: url(../img/wallpaper.jpg);
-    background-size: cover;
+  background-image: url(../img/wallpaper.jpg);
+  background-repeat: no-repeat;
+  width: 1100px;
+  height: 625px;
+  background-color: blue;
 }
 
 a {
@@ -13,6 +19,7 @@ a {
 a:hover {
   opacity: 1;
 }
+
 .link-container {
   width: 450px;
   font-size: 0;
@@ -45,12 +52,15 @@ a:hover {
 .pic-0 {
   background-image: url(../img/pic-0.jpg);
 }
+
 .pic-1 {
   background-image: url(../img/pic-1.png);
 }
+
 .pic-2 {
   background-image: url(../img/pic-2.png);
 }
+
 .pic-3 {
   background-image: url(../img/pic-3.jpg);
 }
