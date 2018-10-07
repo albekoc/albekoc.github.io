@@ -1,5 +1,6 @@
 html {
   background-color: red;
+  padding: 0;
 }
 body {
   background-image: url(../img/wallpaper.jpg);
@@ -7,6 +8,7 @@ body {
   width: 1100px;
   height: 630px;
   background-color: blue;
+  margin: 0;
 }
 
 a {
@@ -26,7 +28,6 @@ a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-left: 50px;
-  margin-top: 50px;
 }
 
 .thumbnail {
