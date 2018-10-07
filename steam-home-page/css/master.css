@@ -32,7 +32,6 @@ a:hover {
 }
 
 .thumbnail {
-  background-color: red;
   width: 200px;
   margin-left: 20px;
   height: 130px;
@@ -75,9 +74,39 @@ a:hover {
   opacity: 0.3;
 }
 .time-de {
-  width: 291;
-  height: 25;
+  width: 291px;
+  height: 25px;
   margin-left: 140px;
   margin-top: 30px;
   opacity: 0.3;
+}
+
+.time:hover, .time-de:hover {
+  opacity: 1;
+}
+
+.g-submit {
+  visibility: hidden;
+}
+
+input[type="text"] {
+  text-align: left;
+  font-size: 25px;
+  opacity: 0.3;
+  position: absolute;
+  top: 70px;
+  left: 830px;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  padding-left: 5px;
+  background-color: transparent;
+}
+
+::placeholder {
+  color: white;
+}
+
+input[type="text"]:hover {
+  opacity: 1;
 }
